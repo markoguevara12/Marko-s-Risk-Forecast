@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos y Ayuda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/ayudas.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marko's Risk Forecast</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="desastres.html">Tipos de Desastres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="prevenciones.html">Prevención</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Ayudas.html">Recursos y Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="section-title">
+            <h2>Organizaciones de Ayuda y Números de Emergencia</h2>
+            <p>En caso de desastre natural, es vital saber a dónde acudir para recibir ayuda y asistencia.</p>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Organización</th>
+                    <th>Enlace</th>
+                    <th>Número de Emergencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cruz Roja</td>
+                    <td><a href="https://www.cruzroja.org" target="_blank" class="text-warning">Visitar página</a></td>
+                    <td>+34 91 335 04 12</td>
+                </tr>
+                <tr>
+                    <td>FEMA (EE.UU.)</td>
+                    <td><a href="https://www.fema.gov" target="_blank" class="text-warning">Visitar página</a></td>
+                    <td>1-800-621-FEMA</td>
+                </tr>
+                <tr>
+                    <td>Protección Civil</td>
+                    <td><a href="https://www.proteccioncivil.gob.es" target="_blank" class="text-warning">Visitar página</a></td>
+                    <td>112</td>
+                </tr>
+                <tr>
+                    <td>UNICEF</td>
+                    <td><a href="https://www.unicef.org" target="_blank" class="text-warning">Visitar página</a></td>
+                    <td>No disponible</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container my-5">
+        <div class="section-title">
+            <h2>Recursos Multimedia de Prevención</h2>
+            <p>Consulta estos recursos visuales para aprender cómo prevenir y reaccionar ante desastres naturales.</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card bg-dark">
+                    <img src="img/video terremoto.png" class="card-img-top" alt="Video de Prevención">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Prevención de Terremotos</h5>
+                        <p class="card-text">Aprende cómo prepararte para un terremoto con este video educativo.</p>
+                        <a href="https://www.youtube.com/watch?v=6Im9ezEwFdw" class="btn btn-primary" target="_blank">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark">
+                    <img src="img/huracanes video.png" class="card-img-top" alt="Video de Prevención">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cómo Evacuar en un Huracán</h5>
+                        <p class="card-text">Guía sobre cómo evacuar y protegerse durante un huracán.</p>
+                        <a href="https://www.youtube.com/watch?v=uFsumimqTLg" class="btn btn-primary" target="_blank">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark">
+                    <img src="img/Tsunami video.png" class="card-img-top" alt="Video de Prevención">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tsunamis: Qué Hacer</h5>
+                        <p class="card-text">Este video te enseñará los pasos a seguir en caso de tsunami.</p>
+                        <a href="https://www.youtube.com/watch?v=QzazPnoGe38" class="btn btn-primary" target="_blank">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="section-title">
+            <h2>Cómo Puedes Ayudar</h2>
+            <p>Tu apoyo es vital para ayudar a las víctimas de desastres naturales. Dona para hacer la diferencia.</p>
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label for="donorName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="donorName" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="donorEmail" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="donorEmail" placeholder="Tu correo electrónico">
+            </div>
+            <div class="mb-3">
+                <label for="donationAmount" class="form-label">Monto a Donar (₡)</label>
+                <input type="number" class="form-control" id="donationAmount" placeholder="Cantidad en euros">
+            </div>
+            <button type="submit" class="btn btn-primary">Donar</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Desastres Naturales. Todos los derechos reservados.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Desastres</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/desastres.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marko's Risk Forecast</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="desastres.html">Tipos de Desastres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="prevenciones.html">Prevención</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Ayudas.html">Recursos y Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Tipos de Desastres</h1>
+        <p>Conoce los principales desastres naturales y cómo afectan a nuestras comunidades.</p>
+    </header>
+
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="img/terremoto.jpg" class="card-img-top" alt="Terremotos">
+                    <div class="card-body">
+                        <h5 class="card-title">Terremotos</h5>
+                        <p class="card-text">Movimientos sísmicos que pueden causar daños devastadores.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTerremotos">Leer más</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalTerremotos" tabindex="-1" aria-labelledby="modalTerremotosLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTerremotosLabel">Terremotos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="img/terremoto.jpg" class="img-fluid mb-3" alt="Terremotos en detalle">
+                            <p>Los terremotos son movimientos súbitos de la corteza terrestre causados por la liberación de energía acumulada en fallas geológicas. Pueden provocar colapsos de edificios, tsunamis y deslizamientos de tierra.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="img/huracan.jpg" class="card-img-top" alt="Huracanes">
+                    <div class="card-body">
+                        <h5 class="card-title">Huracanes</h5>
+                        <p class="card-text">Tormentas tropicales con vientos extremadamente fuertes.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalHuracanes">Leer más</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalHuracanes" tabindex="-1" aria-labelledby="modalHuracanesLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalHuracanesLabel">Huracanes</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="img/huracan.jpg" class="img-fluid mb-3" alt="Huracanes en detalle">
+                            <p>Los huracanes son tormentas tropicales intensas que se forman sobre océanos cálidos. Pueden causar inundaciones, deslizamientos de tierra, marejadas ciclónicas y daños a la infraestructura.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="img/tsunami.jpg" class="card-img-top" alt="Tsunamis">
+                    <div class="card-body">
+                        <h5 class="card-title">Tsunamis</h5>
+                        <p class="card-text">Olas gigantes provocadas por terremotos submarinos o erupciones volcánicas.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTsunamis">Leer más</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalTsunamis" tabindex="-1" aria-labelledby="modalTsunamisLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTsunamisLabel">Tsunamis</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="img/tsunami.jpg" class="img-fluid mb-3" alt="Tsunamis en detalle">
+                            <p>Los tsunamis son series de olas gigantes producidas por movimientos sísmicos en el fondo del océano. Estas olas pueden inundar y devastar zonas costeras, causando pérdida de vidas y bienes.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="img/Incendio forestal.jpg" class="card-img-top" alt="Incendios Forestales">
+                    <div class="card-body">
+                        <h5 class="card-title">Incendios Forestales</h5>
+                        <p class="card-text">Fuegos descontrolados que afectan áreas naturales.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIncendios">Leer más</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalIncendios" tabindex="-1" aria-labelledby="modalIncendiosLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalIncendiosLabel">Incendios Forestales</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="img/Incendio forestal.jpg" class="img-fluid mb-3" alt="Incendios Forestales en detalle">
+                            <p>Los incendios forestales son fuegos no controlados que afectan grandes áreas de vegetación, fauna y flora. A menudo son provocados por el hombre o condiciones climáticas extremas.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="img/inundaciones.jpg" class="card-img-top" alt="Inundaciones">
+                    <div class="card-body">
+                        <h5 class="card-title">Inundaciones</h5>
+                        <p class="card-text">Acumulación excesiva de agua en áreas habitadas.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalInundaciones">Leer más</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalInundaciones" tabindex="-1" aria-labelledby="modalInundacionesLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalInundacionesLabel">Inundaciones</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="img/inundaciones.jpg" class="img-fluid mb-3" alt="Inundaciones en detalle">
+                            <p>Las inundaciones son el resultado de lluvias intensas, crecidas de ríos o desbordamientos de presas. Pueden destruir cultivos, viviendas e infraestructuras.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <footer>
+        <p>&copy; 2024 Desastres Naturales. Todos los derechos reservados.</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

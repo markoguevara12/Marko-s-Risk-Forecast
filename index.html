@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko's Risk Forecast</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marko's Risk Forecast</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="desastres.html">Tipos de Desastres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="prevenciones.html">Prevención</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Ayudas.html">Recursos y Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Marko's Risk Forecast</h1>
+        <p>Conoce más sobre cómo prevenir y reaccionar ante desastres naturales.</p>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/terremoto.jpg" class="d-block w-100" alt="Terremoto">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Terremotos</h5>
+                    <p>Los terremotos sacuden el suelo y pueden causar grandes daños.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/Tsunami.jpg" class="d-block w-100" alt="Tsunami">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tsunamis</h5>
+                    <p>Olas gigantes que se originan en el océano.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/huracan.jpg" class="d-block w-100" alt="Huracán">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Huracanes</h5>
+                    <p>Tormentas poderosas con vientos destructivos.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="text-center mt-5 mb-5">
+        <a href="desastres.html" class="cta-btn">Explora los Tipos de Desastres</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Desastres Naturales. Todos los derechos reservados.</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
